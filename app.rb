@@ -34,7 +34,7 @@ class App < Sinatra::Base
     result = 'Not able to perform operation'
     
     if params[:operation] == 'add'
-      
+      result = num1 + num2
     end
   end
 end

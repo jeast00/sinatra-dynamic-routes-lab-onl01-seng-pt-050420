@@ -31,7 +31,7 @@ class App < Sinatra::Base
     num1 = params[:number1].to_i
     num2 = params[:number2].to_i
     
-    result = 'Not able to perform operation'
+    result = ''
     
     if params[:operation] == 'add'
       result = (num1 + num2).to_s

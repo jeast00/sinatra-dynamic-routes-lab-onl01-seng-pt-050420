@@ -22,4 +22,8 @@ class App < Sinatra::Base
     end
     phrase
   end
+  
+  get '/operation/:number1/:number2' do
+    
+  end
 end

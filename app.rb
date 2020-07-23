@@ -35,6 +35,7 @@ class App < Sinatra::Base
     
     if params[:operation] == 'add'
       result = (num1 + num2).to_s
+    elsif params[:operation] == 'subtract'
     end
   end
 end
